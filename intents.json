@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hey there"],
+      "responses": ["Hello!", "Hi there! 😊", "Hey! How can I help you today?", "Good to see you!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Catch you later", "Talk to you soon"],
+      "responses": ["Goodbye!", "Take care!", "See you next time!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Thanks for your help"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem! 😊"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "I have a problem", "Assistance please", "What can you do?"],
+      "responses": [
+        "Of course! Let me know what you need help with.",
+        "I'm here to assist you. What's troubling you?",
+        "Sure! Ask me anything, I’ll try my best."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["Tell me a fact", "Fun fact please", "I want to know something cool"],
+      "responses": [
+        "Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!",
+        "Octopuses have three hearts and blue blood!",
+        "Bananas are berries, but strawberries aren’t!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "Say something inspiring", "I need motivation", "Cheer me up"],
+      "responses": [
+        "You are capable of amazing things! 💪",
+        "Every day is a new beginning. Keep going!",
+        "You’ve got this! Don’t give up!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Say something funny"],
+      "responses": [
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "Why did the math book look sad? Because it had too many problems.",
+        "Parallel lines have so much in common… it’s a shame they’ll never meet."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather?", "Is it hot outside?", "Is it raining?", "Today's temperature?"],
+      "responses": [
+        "I'm not connected to live weather data, but you can check your local weather app! ☀️☁️",
+        "I wish I could tell you! Try asking your phone’s assistant for the latest weather updates."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time?"],
+      "responses": [
+        "Your device clock should have the answer! 🕒",
+        "I don't have access to real-time data, but your local time should be easy to check!"
+      ]
+    },
+    {
+      "tag": "creator_info",
+      "patterns": ["Who made you?", "Who created you?", "What are you?", "Are you an AI?"],
+      "responses": [
+        "I was created by Mr.Asif & developed by using AI technology!",
+        "I’m an AI assistant created by Mr.Asif. I’m here to help you!"   
+      
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": ["Can you speak Hindi?", "Other languages?", "Multilingual?", "Do you know Telugu?"],
+      "responses": [
+        "I can understand and reply in multiple languages to some extent!",
+        "Right now, I mostly use English, but I can try other languages too. 😄",
+        "Yes, I can respond in simple Hindi, Telugu, and more. Try me!"
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": ["Give me a quote", "Inspire me", "Any quotes today?", "Daily quote?"],
+      "responses": [
+        "“The only limit to our realization of tomorrow is our doubts of today.” – Franklin D. Roosevelt",
+        "“Success is not final, failure is not fatal: It is the courage to continue that counts.” – Winston Churchill",
+        "“Believe you can and you're halfway there.” – Theodore Roosevelt"
+      ]
+    },
+    {
+      "tag": "study_tip",
+      "patterns": ["Any study tips?", "Help me study", "I can't focus", "How to remember things?"],
+      "responses": [
+        "Try studying in short, focused sessions (Pomodoro technique works great).",
+        "Use visuals, mnemonics, and teaching others to remember better!",
+        "Take regular breaks and avoid multitasking for better focus."
+      ]
+    },
+    {
+      "tag": "bored",
+      "patterns": ["I'm bored", "What can I do?", "Any ideas?", "Suggest something fun"],
+      "responses": [
+        "How about reading a fun article or watching a quick documentary?",
+        "Try learning a random skill online or playing a quiz game!",
+        "You could try journaling or creating something new. 🎨"
+      ]
+    },
+    {
+      "tag": "selfcare",
+      "patterns": ["I feel tired", "I'm stressed", "How to relax?", "Self care tips?"],
+      "responses": [
+        "Take a deep breath and try a short walk or meditation.",
+        "Drink water, rest your eyes, and take things one step at a time.",
+        "Listening to calming music or journaling can help. 💆‍♂️"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": ["What is your name?", "Who are you?", "What can you do?"],
+      "responses": [
+        "My boss used to call me Jarvis!",
+        "I'm a chatbot, I can answer questions, tell jokes, and provide information. What do you need?",
+        "I’m just a friendly AI assistant. Ask me anything!"
+      ]
+    }
+  ]
+}
